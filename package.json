@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "nuxt build && push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "nuxt generate && push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "author": "Rubystar Ashe <rubystarashe@gmail.com> (https://github.io/rubystarashe)",
   "license": "ISC",
